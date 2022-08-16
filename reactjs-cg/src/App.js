@@ -2,13 +2,15 @@
 import React from 'react';
 import './App.css';
 // import ShowInfor from './componnents/ShowInforBrowser';
-import ShowInforStudents from './componnents/ShowInforStudents';
+// import ShowInforStudents from './componnents/ShowInforStudents';
+import { ShowProfileCard } from './componnents/ProfileCard/ShowProfileCard';
 
 function App() {
   return (
     <div className="App">
       {/* <ShowInfor /> */}
-      <ShowInforStudents />
+      {/* <ShowInforStudents /> */}
+      <ShowProfileCard />
     </div>
   );
 }
