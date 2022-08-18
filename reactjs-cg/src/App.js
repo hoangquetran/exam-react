@@ -7,7 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import { ShowProfileCard } from './componnents/ProfileCard/ShowProfileCard';
 // import { LoginForm } from './componnents/Login/Login';
 // import { AlertComponent } from './componnents/AlertComponent';
-import ShowStudentList from './componnents/StudentList/ShowStudentList';
+// import ShowStudentList from './componnents/StudentList/ShowStudentList';
+import ExpandButton from './componnents/ExpandButton';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       {/* <ShowProfileCard /> */}
       {/* <LoginForm /> */}
       {/* <AlertComponent text="Cảnh báo! Tài nguyên bạn vừa truy cập không tồn tại." /> */}
-      <ShowStudentList />
+      {/* <ShowStudentList /> */}
+      <ExpandButton />
     </div>
   );
 }
